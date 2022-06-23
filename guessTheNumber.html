@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>GuessTheNumber</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="guessTheNumber.js"></script>
+</head>
+<body>
+
+<div class="userInterface">
+    <h1>GUESS THE NUMBER</h1>
+
+    <div class="shortInfo">
+        <p class="shortParag">Try to guess the number with as less trys as you need. <br> The number is between 1 and 100.</p>
+    </div>
+
+    <input type="text" class="guessInput" id="guessNumber">
+    <button class="guessButton" onclick="guessTheNumber()">Guess!</button>
+
+    <div class="alertNumber" role="alert" id="alertNumb">
+        <p class="alertParag">Your number is not between 1 and 100!</p>
+        <button class="okButton" onclick="closeAlert()">Ok!</button>
+    </div>
+
+    <div class="inputPls" id="numberZero">
+        <p>Insert your number here.</p>
+    </div>
+
+    <div class="infoArea">
+
+        <div class="wrongNumberLow" id="toLow">
+            <p>Wrong! Your number is to low. <br> Try again!</p>
+        </div>
+
+        <div class="wrongNumberHigh" id="toHigh">
+            <p>Wrong! Your number is to high. <br> Try again!</p>
+        </div>
+
+        <div class="youWon" id="youWon">
+            <p class="firstParag">Congratulations!</p>
+            <img class="pictureCong" src="assets/trophäe.jpg">
+            <p class="neededTries">Tries:</p>
+            <div class="howMuchTries" id="outputTries"></div>
+        </div>
+
+    </div>
+
+
+
+
+</div>
+
+</body>
+</html>

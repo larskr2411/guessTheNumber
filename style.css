@@ -1,0 +1,157 @@
+.userInterface {
+
+    height: 800px;
+    width: 800px;
+    background-color: #000832;
+    transform: translate(205px);
+}
+
+body {
+    background-image: url("assets/background.jpg");
+    background-color: #000306;
+    margin-left: 25px;
+}
+
+h1 {
+    text-align: center;
+    color: darkgrey;
+    font-size: 60px;
+    font-family: Chiller;
+    transform: translate(0px, 25px);
+}
+
+.shortInfo {
+    height: 100px;
+    width: 600px;
+    background-color: darkblue;
+    transform: translate(100px);
+}
+
+.shortParag {
+    text-align: center;
+    color: lightgray;
+    font-size: 27px;
+    font-family: "Bernard MT Condensed";
+    transform: translate(0px, 20px);
+
+}
+
+.guessInput {
+    transform: translate(350px, 50px);
+    height: 100px;
+    width: 100px;
+    font-size: 90px;
+}
+
+.guessButton {
+    transform: translate(160px, 150px);
+    height: 80px;
+    width: 250px;
+    font-size: 45px;
+    font-family: Ravie;
+    color: black;
+    background-color: gray;
+    border: solid;
+    border-color: #000306;
+    border-width: 5px;
+
+
+
+}
+.guessButton:hover {
+    background-color: blueviolet;
+    border-color: darkviolet;
+    border-style: dot-dot-dash;
+    color: aliceblue;
+}
+
+
+.testTest {
+    transform: translate(-400px, 100px);
+    height: 100px;
+    width: 100px;
+}
+
+
+.wrongNumberLow {
+    transform: translate(0px, 0px);
+    visibility: hidden;
+    background-color: deepskyblue;
+    text-align: center;
+    font-size: 35px;
+}
+
+.wrongNumberHigh {
+    transform: translate(0px, -110px);
+    visibility: hidden;
+    background-color: deepskyblue;
+    text-align: center;
+    font-size: 35px;
+}
+
+.youWon {
+    visibility: hidden;
+    transform: translate(-50px, -900px);
+    height: 900px;
+    width: 900px;
+    background-color: darkgreen;
+}
+
+.firstParag {
+    text-align: center;
+    font-size: 100px;
+}
+
+.pictureCong {
+    transform: translate(300px, -50px);
+    height: 300px;
+    width: 300px;
+}
+
+.neededTries {
+    transform: translate(300px, -50px);
+    font-size: 55px;
+}
+
+.howMuchTries {
+    transform: translate(490px, -180px);
+    height: 90px;
+    width: 90px;
+    font-size: 90px;
+    text-align: center;
+    background-color: aliceblue;
+}
+
+.alertNumber {
+    visibility: hidden;
+    transform: translate(200px, -90px);
+    height: 120px;
+    width: 400px;
+    background-color: crimson;
+    text-align: center;
+    font-size: 25px;
+    color: floralwhite;
+}
+
+.okButton {
+    background-color: darkred;
+    border-color: darkred;
+    box-shadow: #000306;
+    height: 40px;
+    width: 60px;
+}
+
+.okButton:hover {
+    background-color: cornflowerblue;
+}
+
+.inputPls {
+    visibility: hidden;
+    transform: translate(255px, -270px);
+    height: 30px;
+    width: 280px;
+    text-align: center;
+    font-size: 25px;
+    color: floralwhite;
+    background-color: cornflowerblue;
+}
